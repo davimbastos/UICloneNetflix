@@ -142,12 +142,24 @@ img {
     border-bottom: var(--primary-color) 4px solid;
 }
 
+
 /* Tab Content*/
 
 .tab-content {
     padding: 3rem 0;
     background: #000;
     color: #fff;
+}
+
+/* Hide content initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
 }
 
 #tab-1-content .tab-1-content-inner {
@@ -343,6 +355,10 @@ img {
     .text-md {
         font-size: 1rem;
     }
+}
+
+.btn-icon {
+    margin-left: 1rem;
 }
 
 @media(max-width: 700px) {
